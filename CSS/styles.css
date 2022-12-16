@@ -127,7 +127,7 @@ color: var(--main-text-color);
 .hero-title {
   font-weight: 500;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--first-title-color);
@@ -189,7 +189,7 @@ color: var(--main-text-color);
 .services-title {
 font-weight: 500;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
