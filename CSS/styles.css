@@ -1,3 +1,5 @@
+/* -------------MAIN PAGE--------------- */
+
 /* accent color - #4D5AE5; */
 /* main color - #434455 */
 /* h2 and h3 color - #2E2F42 */
@@ -143,7 +145,13 @@ color: var(--first-title-color);
 cursor: pointer;
 }
 
-.hero-btn {
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--first-title-color);
+}
+
+.hero-btn{
   background-color: var(--accent-color);
 }
 
@@ -255,3 +263,54 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
 }
+
+/* -------------PAGE PORTFOLIO--------------- */
+
+.galery {
+}
+.btn-list {
+}
+.btn-item {
+}
+
+.btn {
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.50;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--accent-color);
+cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus{
+  background-color: var(--accent-color);
+  color: var(--first-title-color);
+}
+
+.galery-list {
+}
+.galery-item {
+}
+.galery-text {
+}
+.galery-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+
+.galery-after-title {
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
